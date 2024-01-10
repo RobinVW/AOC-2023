@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-const lines = fs.readFileSync('./input1.txt', 'utf8').trim().split('\n');
+const lines = fs.readFileSync('./input.txt', 'utf8').trim().split('\n');
 
 var numbersMap = {
     'one' : 1,
